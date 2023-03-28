@@ -1,0 +1,23 @@
+.fetured {
+  margin: 100px 200px;
+
+  .feturedtitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  h1 {
+    flex: 2;
+  }
+  p {
+    flex: 3;
+    color: gray;
+  }
+  .iteam {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+  }
+}

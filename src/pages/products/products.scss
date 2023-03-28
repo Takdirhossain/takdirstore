@@ -1,0 +1,30 @@
+.products {
+  display: flex;
+  padding: 30px 50px;
+  .left {
+    position: sticky;
+    top: 50px;
+    flex: 1;
+    .productcategory{
+        h2{
+margin-top: 20px;
+margin-bottom: 10px;
+        }
+        .siderbar{
+            label{
+margin-left: 10px;
+            }
+        }
+    }
+  }
+  .right {
+    flex: 3;
+    .catImg {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      margin-bottom: 50px;
+      object-fit: cover;
+    }
+  }
+}
